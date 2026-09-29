@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+    background-color: #faf6f0;
+    color: #3e2618;
+  }
+}
+
+/* 커스텀 포커스 및 인풋 스타일 */
+.cafe-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d7c9be;
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  color: #3e2618;
+}
+
+.cafe-input:focus {
+  border-color: #6b4226;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(107, 66, 38, 0.18);
+}

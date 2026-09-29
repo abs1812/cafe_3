@@ -1,0 +1,6 @@
+{
+  "name": "바이브 카페 주문 게시판",
+  "description": "따뜻하고 아늑한 바이브 카페의 실시간 주문 및 게시판 웹 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
